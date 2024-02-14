@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League</title>
+    <style>
+        h1{
+            padding:10px;
+            background-color: darkblue;
+            color:aliceblue;
+            text-align: center;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <h1>Premier League</h1>
+   <a href="home.html">Home</a>
+   <a href="clubs.html">Clubs</a>
+   <a href="records.html">Records</a>
+   <a href="alltimestats.html">All-time stats</a>
+   <a href="moreinfo.html">More info</a>
+
+    </body>
+</html>

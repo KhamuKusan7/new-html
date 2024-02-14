@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        h1 {
+            padding: 10px;
+            background-color: darkblue;
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
+    <style>
+        tr,th,td{
+            border:1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+        <div class="logo">
+         <img src="PL LOGO.png" height="300" width="500">
+        </div>
+        
+        
+    <nav>
+   <a href="home.html">Home</a>
+   <a href="clubs.html">Clubs</a>
+   <a href="records.html">Records</a>
+   <a href="alltimestats.html">All-time stats</a>
+   <a href="moreinfo.html">More info</a>
+    </nav>
+   
+   <!--Opening History of PL-->
+   <!-- <h3>About Premier League</h3> -->
+    </header>
+
+    <!--putting Images of clubs-->
+    <h3></h3>
+    <img src="arsenal.jpg" height="300" width="250">
+    <img src="burnley.jpg" height="300" width="250">
+    <img src="liverpool.png" height="300" width="250">
+    <img src="mancity.png" height="300" width="350">
+    <img src="manutd.jpg" height="300" width="350">
+   <!--club with Players Name-->
+    <a> <dt>Arsenal</dt>
+   <dd>-Martin Odegaard</dd>
+   <dd>-Gabriel Jesus</dd>
+   <dd>-Declan Rice</dd> 
+    </a>
+
+   <a> <dt>Burnley</dt>
+    <dd>-Fofana</dd>
+    <dd>-Brownhill</dd>
+    <dd>-Taylor</dd>
+   </a>
+
+   <a>
+    <dd></dd>
+   </a>
+   <!--Club name players and their position in table format-->
+   <table>
+    <tr>
+        <th>Club Name</th>
+        <th>Players Name</th>
+        <th>Position</th>
+    </tr>
+    <tr>
+        <td>Arsenal</td>
+        <td>Martin Odegaard</td>
+        <td>CAM,RW</td>
+    </tr>
+    <tr>
+        <td>Manchester City</td>
+        <td>Kevin De Bruyne</td>
+        <td>CAM,CM</td>
+    </tr>
+    <tr>
+        <td>Liverpool</td>
+        <td>Mohammad Salah</td>
+        <td>RW,LW,ST</td>
+    </tr>
+   </table>
+   <label>Choose club</label>
+   <select>
+    <option>Arsenal</option>
+    <option>Burnley</option>
+    <option>Manchester City</option>
+    <option>Man Utd</option>
+    <option>Liverpool</option>
+   </select>
+   <br>
+   <label>Select players</label>
+   <input type="checkbox" name="Odegaard">Martin Odegaard
+   <input type="checkbox" name="kdb">KDB
+   <input type="checkbox" name="Salah">Mohammad Salah
+</body>
+
+</html>
