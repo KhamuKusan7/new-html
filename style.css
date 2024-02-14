@@ -9,7 +9,7 @@ header{
     top: 0;
     left: 0;
 
-    .logo:hover{
+    .logo: hover{
         -webkit-box-reflect: below 0 linear-gradient(transparent, white);
     }
 }
